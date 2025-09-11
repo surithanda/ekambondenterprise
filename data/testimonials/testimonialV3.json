@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Mehta",
+    "position": "CTO, FinTech Startup",
+    "quote": "MysticMind delivered AI tools that automated workflows and boosted our efficiency within weeks of launch.",
+    "avatar": "/images/testimonials/aarav.png",
+    "date": "Jan 2025"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "position": "Founder, HealthTech",
+    "quote": "Their data analytics dashboards simplified patient tracking and gave us real-time insights for better decisions.",
+    "avatar": "/images/testimonials/priya.png",
+    "date": "Feb 2025"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Gupta",
+    "position": "CEO, E-commerce Brand",
+    "quote": "The AI-driven recommendation engine boosted sales while improving how our customers discovered new products online.",
+    "avatar": "/images/testimonials/rohan.png",
+    "date": "Mar 2025"
+  },
+  {
+    "id": 4,
+    "name": "Neha Verma",
+    "position": "Product Manager, SaaS Startup",
+    "quote": "Cloud and AI integration was smooth, enabling us to scale quickly with secure platforms and reliable support always.",
+    "avatar": "/images/testimonials/neha.png",
+    "date": "Apr 2025"
+  },
+  {
+    "id": 5,
+    "name": "Karan Singh",
+    "position": "Director, Logistics Company",
+    "quote": "Predictive analytics now optimize delivery routes and reduce costs, making operations more data-driven each month.",
+    "avatar": "/images/testimonials/karan.png",
+    "date": "May 2025"
+  }
+]

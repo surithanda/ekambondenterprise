@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What services does MysticMind Data Solutions offer?",
+    "answer": "MysticMind provides data analytics, AI and ML solutions, data migrations, cloud architecture, and Microsoft Power Platform services. We specialize in turning data into actionable insights, building scalable data pipelines, and delivering AI-driven automation to boost business growth and efficiency."
+  },
+  {
+    "id": 2,
+    "question": "How long does a data or AI project take to complete?",
+    "answer": "Timelines vary based on project scope and complexity. We collaborate with you to set clear deadlines and deliver tailored solutions on time."
+  },
+  {
+    "id": 3,
+    "question": "Can MysticMind handle small and large-scale projects?",
+    "answer": "Yes, we manage projects of all sizes, from startups to enterprises, crafting solutions to meet your unique data and AI needs."
+  },
+  {
+    "id": 4,
+    "question": "How involved will I be in the project?",
+    "answer": "We prioritize collaboration, keeping you updated at every step. Your input ensures our solutions align with your business goals."
+  },
+  {
+    "id": 5,
+    "question": "Do you provide post-launch support?",
+    "answer": "Yes! We offer ongoing support to ensure your data and AI solutions remain optimized and effective after launch."
+  }
+]
