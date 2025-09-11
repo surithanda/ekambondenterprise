@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/home-ai/ai-slider-img-3.jpg'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: "/images/home/blog2.jpg"
+featureImage: "/images/home/blog2.jpg"
 title: 'Scalable cloud architectures for data needs'
 description: 'Discover MysticMind’s cloud solutions on Azure, AWS, and GCP for real-time analytics and scalability.'
 badge: 'Cloud Solutions'

@@ -32,10 +32,22 @@ const CtaImageSlider: FC<CtaImageSliderProps> = ({ slides }) => {
 
   return (
     <div className="cta-slider-container translate-y-2 max-sm:mb-5 max-sm:mt-2.5 max-sm:block sm:!mx-5 sm:inline-block sm:translate-y-[20px]">
-      <div ref={ctaSlider} className="cta-inline-slider transition-transform duration-500 ease-in-out">
+      <div
+        ref={ctaSlider}
+        className="cta-inline-slider transition-transform duration-500 ease-in-out"
+      >
         {slides?.map((slide, index) => (
-          <div key={slide.id} className="slide">
-            <Image src={slide.img} alt={`cta-slide-img-${index + 1}`} width={240} height={100} priority={index === 0} />
+          <div
+            key={slide.id}
+            className="slide relative w-[240px] h-[100px]" // 👈 container size
+          >
+            <Image
+              src={slide.img}
+              alt={`cta-slide-img-${index + 1}`}
+              fill
+              priority={index === 0}
+              className="object-cover rounded-lg" // 👈 cover mode
+            />
           </div>
         ))}
       </div>

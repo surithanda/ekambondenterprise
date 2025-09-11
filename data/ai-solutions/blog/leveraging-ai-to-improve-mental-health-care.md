@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/home-ai/ai-slider-img-4.jpg'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: "/images/home/blog2.jpg"
+featureImage: "/images/home/blog2.jpg"
 title: 'Natural language queries for databases'
 description: 'See how MysticMind’s AI converts natural language to SQL, simplifying database access for businesses.'
 badge: 'Generative AI'

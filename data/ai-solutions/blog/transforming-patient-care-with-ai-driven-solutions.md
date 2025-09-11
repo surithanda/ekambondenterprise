@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/home-ai/ai-slider-img-3.jpg'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: "/images/home/blog2.jpg"
+featureImage: "/images/home/blog2.jpg"
 title: 'Data governance for compliance and security'
 description: 'Explore MysticMind’s frameworks for data governance, ensuring GDPR, CCPA compliance and security.'
 badge: 'Data Governance'

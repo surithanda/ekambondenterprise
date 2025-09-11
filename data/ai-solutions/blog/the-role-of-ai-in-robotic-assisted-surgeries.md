@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/home-ai/ai-slider-img-2.jpg'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: "/images/home/blog2.jpg"
+featureImage: "/images/home/blog2.jpg"
 title: 'Automated data quality with AI solutions'
 description: 'Learn how MysticMind uses AI and Data Bricks to ensure data accuracy in data lakes and databases.'
 badge: 'Data Quality'

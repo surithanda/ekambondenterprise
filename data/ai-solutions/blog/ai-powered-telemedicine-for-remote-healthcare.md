@@ -1,6 +1,6 @@
 ---
-thumbnail: "/images/home-ai/ai-slider-img-1.jpg"
-featureImage: "/images/blog-img/blog-details-img-1.png"
+thumbnail: "/images/home/blog2.jpg"
+featureImage: "/images/home/blog2.jpg"
 title: "AI-driven data analytics for business growth"
 description: "Explore how MysticMind uses AI and analytics to turn raw data into insights for smarter business decisions."
 badge: "Data Analytics"

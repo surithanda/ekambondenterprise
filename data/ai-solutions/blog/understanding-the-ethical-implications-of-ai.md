@@ -1,6 +1,6 @@
 ---
-thumbnail: "/images/home-ai/ai-slider-img-4.jpg"
-featureImage: "/images/blog-img/blog-details-img-1.png"
+thumbnail: "/images/home/blog2.jpg"
+featureImage: "/images/home/blog2.jpg"
 title: "Low-code automation with Power Platform"
 description: "Discover how MysticMind leverages Microsoft Power Platform for efficient data-driven automation."
 badge: "Power Platform"

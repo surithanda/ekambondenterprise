@@ -1,6 +1,6 @@
 ---
-thumbnail: '/images/home-ai/ai-slider-img-1.jpg'
-featureImage: '/images/blog-img/blog-details-img-1.png'
+thumbnail: "/images/home/blog2.jpg"
+featureImage: "/images/home/blog2.jpg"
 title: 'AI-powered search for company insights'
 description: 'Understand MysticMind’s AI search engine using LLMs and RAG to extract insights from websites, PDFs.'
 badge: 'AI Search'
