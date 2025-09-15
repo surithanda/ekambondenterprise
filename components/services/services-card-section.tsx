@@ -3,6 +3,7 @@ import RevealWrapper from '../animation/RevealWrapper'
 import RevealWrapperV2 from '../animation/RevealWrapperV2'
 import TextAppearAnimation from '../animation/TextAppearAnimation'
 import TextAppearAnimation02 from '../animation/TextAppearAnimation02'
+import Icon from "../../public/images/service-icons/One.svg"
 
 import servicesData from "../../data/services";
 

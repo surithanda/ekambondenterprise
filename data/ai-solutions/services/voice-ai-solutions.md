@@ -2,8 +2,8 @@
 coverImage: "/images/services/services-details2-img.png"
 title: "AI & Machine Learning"
 description: 'Smarter decisions with AI at scale.'
-lightLogo: "/images/home-12/services/service-img-06.svg"
-darkLogo: "/images/home-12/services/service-img-dark-06.svg"
+lightLogo: "/images/service-icons/Six.svg"
+darkLogo: "/images/service-icons/Six.svg"
 serialNumber: 4
 ---
 

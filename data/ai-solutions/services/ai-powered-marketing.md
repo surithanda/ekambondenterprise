@@ -2,8 +2,8 @@
 coverImage: "/images/services/services-details2-img.png"
 title: "Data Migration Services"
 description: 'Seamless, secure migration solutions.'
-lightLogo: "/images/home-12/services/service-img-05.svg"
-darkLogo: "/images/home-12/services/service-img-dark-05.svg"
+lightLogo: "/images/service-icons/Two.svg"
+darkLogo: "/images/service-icons/Two.svg"
 serialNumber: 3
 ---
 

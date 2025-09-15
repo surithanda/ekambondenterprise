@@ -1,9 +1,9 @@
 ---
-coverImage: '/images/services/services-details2-img.png'
-title: 'Cloud Data Architecture'
-description: 'Scalable cloud systems built to last.'
-lightLogo: '/images/home-12/services/service-img-03.svg'
-darkLogo: '/images/home-12/services/service-img-dark-03.svg'
+coverImage: "/images/services/services-details2-img.png"
+title: "Cloud Data Architecture"
+description: "Scalable cloud systems built to last."
+lightLogo: "/images/service-icons/Three.svg"
+darkLogo: "/images/service-icons/Three.svg"
 serialNumber: 2
 ---
 

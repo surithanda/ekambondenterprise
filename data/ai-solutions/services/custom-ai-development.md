@@ -2,8 +2,8 @@
 coverImage: "/images/services/services-details2-img.png"
 title: "Consulting & Architecture"
 description: 'Expert guidance for growth-ready data.'
-lightLogo: "/images/home-12/services/service-img-04.svg"
-darkLogo: "/images/home-12/services/service-img-dark-04.svg"
+lightLogo: "/images/service-icons/Four.svg"
+darkLogo: "/images/service-icons/Four.svg"
 serialNumber: 5
 ---
 

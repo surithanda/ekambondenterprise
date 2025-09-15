@@ -2,8 +2,8 @@
 coverImage: "/images/services/services-details2-img.png"
 title: "Data Analytics & Intelligence"
 description: "Turn raw data into powerful insights."
-lightLogo: "/images/home-12/services/service-img-01.svg"
-darkLogo: "/images/home-12/services/service-img-dark-01.svg"
+lightLogo: "/images/service-icons/One.svg"
+darkLogo: "/images/service-icons/One.svg"
 serialNumber: 1
 ---
 

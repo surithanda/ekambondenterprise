@@ -5,7 +5,7 @@ import Link from "next/link";
 import RevealWrapper from "../animation/RevealWrapper";
 import TextAppearAnimation from "../animation/TextAppearAnimation";
 
-const businessSolutionServices: MarkdownData[] = getMarkDownData(
+const businessSolutionServices: any[] = getMarkDownData(
   "data/ai-solutions/services"
 ).sort(
   //@ts-ignore
@@ -112,49 +112,7 @@ const Services = () => {
                 <p className="mb-10 text-backgroundBody dark:text-secondary">
                   {service.description}
                 </p>
-                <Link
-                  href={`/ai-solutions/services/${service.slug}`}
-                  className="rv-button rv-button-sm-v2 rv-button-secondary-v2"
-                >
-                  <div className="rv-button-top flex items-center gap-2">
-                    <span className="text-nowrap">Learn More</span>
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={12}
-                        viewBox="0 0 13 12"
-                        fill="none"
-                      >
-                        <path
-                          d="M1 12.5L13 0.5M13 0.5H3.25M13 0.5V10.25"
-                          className="stroke-backgroundBody dark:stroke-secondary"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>
-                  </div>
-                  <div className="rv-button-bottom flex items-center">
-                    <span className="text-nowrap">Learn More</span>
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={12}
-                        viewBox="0 0 13 12"
-                        fill="none"
-                      >
-                        <path
-                          d="M1 12.5L13 0.5M13 0.5H3.25M13 0.5V10.25"
-                          className="stroke-secondary dark:stroke-backgroundBody"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>
-                  </div>
-                </Link>
+      
               </div>
             </div>
           </RevealWrapper>
@@ -216,49 +174,7 @@ const Services = () => {
                 <p className="mb-10 text-backgroundBody dark:text-secondary">
                   {service.description}
                 </p>
-                <Link
-                  href={`/ai-solutions/services/${service.slug}`}
-                  className="rv-button rv-button-sm-v2 rv-button-secondary-v2"
-                >
-                  <div className="rv-button-top flex items-center gap-2">
-                    <span className="text-nowrap">Learn More</span>
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={12}
-                        viewBox="0 0 13 12"
-                        fill="none"
-                      >
-                        <path
-                          d="M1 12.5L13 0.5M13 0.5H3.25M13 0.5V10.25"
-                          className="stroke-backgroundBody dark:stroke-secondary"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>
-                  </div>
-                  <div className="rv-button-bottom flex items-center">
-                    <span className="text-nowrap">Learn More</span>
-                    <span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={13}
-                        height={12}
-                        viewBox="0 0 13 12"
-                        fill="none"
-                      >
-                        <path
-                          d="M1 12.5L13 0.5M13 0.5H3.25M13 0.5V10.25"
-                          className="stroke-secondary dark:stroke-backgroundBody"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </span>
-                  </div>
-                </Link>
+      
               </div>
             </div>
           </RevealWrapper>

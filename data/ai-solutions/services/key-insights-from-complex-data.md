@@ -2,8 +2,8 @@
 coverImage: "/images/services/services-details2-img.png"
 title: "Data Modeling & Quality"
 description: 'Ensure accurate, reliable business data.'
-lightLogo: "/images/home-12/services/service-img-02.svg"
-darkLogo: "/images/home-12/services/service-img-dark-02.svg"
+lightLogo: "/images/service-icons/Five.svg"
+darkLogo: "/images/service-icons/Five.svg"
 serialNumber: 6
 ---
 
