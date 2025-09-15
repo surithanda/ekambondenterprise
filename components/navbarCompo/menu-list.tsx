@@ -250,15 +250,15 @@ export const MenuList = forwardRef<HTMLUListElement, MenuListProps>(
                         onItemClick && onItemClick();
                       }}
                       className={`menu-list-item-dropdown-list inline-block pb-1 pl-3 text-white
-                        text-[12px] leading-[28px]
-                        xs:text-[13px] xs:leading-[30px]
-                        sm:text-[14px] sm:leading-[32px]
-                        md:text-[15px] md:leading-[36px]
-                        lg:text-[16px] lg:leading-[40px]
-                        xl:text-[17px] xl:leading-[44px]
-                        2xl:text-[18px] 2xl:leading-[48px]
-                        3xl:text-[19px] 3xl:leading-[50px]
-                        4xl:text-[20px] 4xl:leading-[52px]
+                        text-[18px] leading-[40px]
+                        xs:text-[20px] xs:leading-[42px]
+                        sm:text-[22px] sm:leading-[44px]
+                        md:text-[24px] md:leading-[46px]
+                        lg:text-[26px] lg:leading-[48px]
+                        xl:text-[28px] xl:leading-[52px]
+                        2xl:text-[30px] 2xl:leading-[56px]
+                        3xl:text-[32px] 3xl:leading-[60px]
+                        4xl:text-[36px] 4xl:leading-[64px]
                         ${isLinkActive(subItem.url) ? "active" : ""}`}
                     >
                       {subItem.title.includes("-") ? (

@@ -444,15 +444,15 @@ export default function Navbar() {
 
         {/* Menu wrapper with hyper-responsive sizing */}
         <div className="menu-wrapper relative z-[99999] mx-auto flex max-h-[90vh] flex-col overflow-y-auto overflow-x-hidden pb-4
-          max-w-[200px] gap-3 px-3
-          xs:max-w-[220px] xs:gap-4 xs:px-4
-          sm:max-w-[280px] sm:gap-5 sm:px-5
-          md:top-6 md:max-h-none md:max-w-[420px] md:gap-8 md:overflow-visible md:px-6 md:pt-0
-          lg:max-w-[560px] lg:gap-10 lg:px-8
-          xl:max-w-[720px] xl:gap-12 xl:px-10
-          2xl:top-4 2xl:max-w-[900px] 2xl:gap-16 2xl:px-12
-          3xl:max-w-[1100px] 3xl:gap-20 3xl:px-16
-          4xl:max-w-[1300px] 4xl:gap-24 4xl:px-20">
+          max-w-[320px] gap-6 px-6
+          xs:max-w-[360px] xs:gap-7 xs:px-7
+          sm:max-w-[420px] sm:gap-8 sm:px-8
+          md:top-8 md:max-h-none md:max-w-[520px] md:gap-10 md:overflow-visible md:px-10 md:pt-0
+          lg:max-w-[680px] lg:gap-12 lg:px-12
+          xl:max-w-[840px] xl:gap-16 xl:px-14
+          2xl:top-6 2xl:max-w-[1000px] 2xl:gap-20 2xl:px-16
+          3xl:max-w-[1200px] 3xl:gap-24 3xl:px-20
+          4xl:max-w-[1400px] 4xl:gap-28 4xl:px-24">
           <MenuList ref={menuItemsRef} onItemClick={closeMenu} />
         </div>
 
