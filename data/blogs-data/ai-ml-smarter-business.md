@@ -4,6 +4,8 @@ featureImage: '/images/blog-img/blog-details-img-3.png'
 title: 'AI & ML for Smarter Businesses'
 description: 'Explore how AI and machine learning drive automation and innovation in 2025.'
 date: 'April 15, 2025'
+wideImageOne: '/images/blogs/BlogWide3.png'
+wideImageTwo: '/images/blogs/BlogWide4.png'
 ---
 
 ### Get to Know the Project – Overview & Highlights
@@ -25,7 +27,7 @@ To maximize AI & ML value:
 2. **Leverage Prebuilt Models:** Reduce costs using cloud ML tools.  
 3. **Continuously Monitor:** Optimize models for accuracy over time.  
 
-![Blog-details images](/images/blogs/BlogWide1.png)
+![Blog-details images](/images/blogs/BlogWide3.png)
 
 ### Overcoming Obstacles
 

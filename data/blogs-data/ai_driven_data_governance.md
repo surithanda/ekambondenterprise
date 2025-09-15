@@ -1,9 +1,11 @@
 ---
-thumbnail: '/images/blogs/Blog1.png'
+thumbnail: '/images/blogs/blog-imgs/blog-square-one.png'
 featureImage: '/images/blog-img/blog-details-img-24.png'
 title: 'AI-Driven Data Governance'
 description: 'Using AI to automate compliance, data lineage, and governance processes.'
 date: 'September 6, 2025'
+wideImageOne: '/images/blogs/blog-imgs/blog-wide-one.png'
+wideImageTwo: '/images/blogs/blog-imgs/blog-wide-two.png'
 ---
 
 ### Get to Know the Project – Overview & Highlights

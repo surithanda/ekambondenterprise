@@ -246,8 +246,9 @@ export default function Navbar() {
         ref={headerRef}
         className="fixed z-[9999] w-full transition-transform duration-300"
       >
+        {/* Hyper-responsive backdrop blur layers */}
         <div
-          className={`pointer-events-none fixed top-0 z-[21] h-[155px] w-full transition duration-300 ease-linear will-change-transform ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
+          className={`pointer-events-none fixed top-0 z-[21] h-[100px] w-full transition duration-300 ease-linear will-change-transform xs:h-[120px] sm:h-[140px] md:h-[155px] lg:h-[155px] xl:h-[155px] 2xl:h-[165px] ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
         >
           <div
             className="pointer-events-none absolute inset-0"
@@ -312,33 +313,40 @@ export default function Navbar() {
             }}
           ></div>
         </div>
+
+        {/* Main navigation with hyper-responsive design */}
         <nav
-          className={`fixed z-[1000] w-full px-5 pt-1 transition duration-300 ease-linear will-change-transform sm:px-8 sm:pt-5 ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
+          className={`fixed z-[1000] w-full px-2 pt-0.5 transition duration-300 ease-linear will-change-transform xs:px-3 xs:pt-1 sm:px-4 sm:pt-2 md:px-6 md:pt-3 lg:px-8 lg:pt-5 xl:px-10 xl:pt-6 2xl:px-12 2xl:pt-8 ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
         >
-          <div className="flex justify-between">
-            <Link href="/" className="relative z-10">
+          <div className="flex justify-between items-center">
+            {/* Logo with hyper-responsive sizing */}
+            <Link href="/" className="relative z-10 flex-shrink-0">
               <Image
-                className="inline-block max-h-[68px] w-auto dark:hidden"
+                className="inline-block h-8 w-auto dark:hidden xs:h-10 sm:h-12 md:h-14 lg:h-16 xl:h-[68px] 2xl:h-20 3xl:h-24"
                 src={logo}
                 alt="logo"
                 width={136}
                 height={68}
                 priority
+                sizes="(max-width: 480px) 32px, (max-width: 640px) 40px, (max-width: 768px) 48px, (max-width: 1024px) 56px, (max-width: 1280px) 64px, (max-width: 1536px) 68px, (max-width: 1920px) 80px, 96px"
               />
               <Image
-                className="hidden max-h-[68px] w-auto dark:inline-block"
+                className="hidden h-8 w-auto dark:inline-block xs:h-10 sm:h-12 md:h-14 lg:h-16 xl:h-[68px] 2xl:h-20 3xl:h-24"
                 src={logoDark}
                 alt="logo"
                 width={136}
                 height={68}
                 priority
+                sizes="(max-width: 480px) 32px, (max-width: 640px) 40px, (max-width: 768px) 48px, (max-width: 1024px) 56px, (max-width: 1280px) 64px, (max-width: 1536px) 68px, (max-width: 1920px) 80px, 96px"
               />
             </Link>
+
+            {/* Menu button with responsive sizing */}
             <div className="flex items-center">
               <button
                 ref={openBtnRef}
                 onClick={openMenu}
-                className="menu-open relative h-[68px] w-[68px] cursor-pointer before:absolute before:left-1/2 before:top-[28px] before:h-0.5 before:w-9 before:-translate-x-1/2 before:bg-black before:transition-all before:duration-300 before:content-[''] after:absolute after:bottom-[28px] after:left-1/2 after:h-0.5 after:w-9 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 after:content-[''] hover:before:top-[25px] hover:after:bottom-[25px] dark:before:bg-white dark:after:bg-white"
+                className="menu-open relative h-8 w-8 cursor-pointer before:absolute before:left-1/2 before:top-[14px] before:h-0.5 before:w-4 before:-translate-x-1/2 before:bg-black before:transition-all before:duration-300 before:content-[''] after:absolute after:bottom-[14px] after:left-1/2 after:h-0.5 after:w-4 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 after:content-[''] hover:before:top-[12px] hover:after:bottom-[12px] dark:before:bg-white dark:after:bg-white xs:h-10 xs:w-10 xs:before:top-[18px] xs:before:w-5 xs:after:bottom-[18px] xs:after:w-5 xs:hover:before:top-[16px] xs:hover:after:bottom-[16px] sm:h-12 sm:w-12 sm:before:top-[22px] sm:before:w-6 sm:after:bottom-[22px] sm:after:w-6 sm:hover:before:top-[19px] sm:hover:after:bottom-[19px] md:h-14 md:w-14 md:before:top-[26px] md:before:w-7 md:after:bottom-[26px] md:after:w-7 md:hover:before:top-[23px] md:hover:after:bottom-[23px] lg:h-16 lg:w-16 lg:before:top-[30px] lg:before:w-8 lg:after:bottom-[30px] lg:after:w-8 lg:hover:before:top-[27px] lg:hover:after:bottom-[27px] xl:h-[68px] xl:w-[68px] xl:before:top-[32px] xl:before:w-9 xl:after:bottom-[32px] xl:after:w-9 xl:hover:before:top-[29px] xl:hover:after:bottom-[29px] 2xl:h-20 2xl:w-20 2xl:before:top-[38px] 2xl:before:w-10 2xl:after:bottom-[38px] 2xl:after:w-10 2xl:hover:before:top-[35px] 2xl:hover:after:bottom-[35px] 3xl:h-24 3xl:w-24 3xl:before:top-[46px] 3xl:before:w-12 3xl:after:bottom-[46px] 3xl:after:w-12 3xl:hover:before:top-[42px] 3xl:hover:after:bottom-[42px]"
                 aria-label="Open Menu"
               ></button>
             </div>
@@ -346,21 +354,22 @@ export default function Navbar() {
         </nav>
       </header>
 
+      {/* Full screen menu with hyper-responsive design */}
       <nav
         ref={menuRef}
         data-lenis-prevent="true"
-        className="menu fixed right-6 top-0 z-[99999] min-h-screen w-full overflow-y-auto opacity-0 before:absolute before:top-0 before:w-[1px] before:bg-backgroundBody before:bg-opacity-10 before:content-none md:before:left-[40%] md:before:h-screen md:before:content-[''] lg:before:left-[32%] lg:before:h-[calc(100vh-87px)] xl:before:left-[40%] xl:before:h-[calc(100vh-94px)]"
+        className="menu fixed inset-0 z-[99999] min-h-screen w-full overflow-y-auto opacity-0 before:absolute before:top-0 before:w-[1px] before:bg-backgroundBody before:bg-opacity-10 before:content-none xs:right-4 sm:right-6 md:right-8 lg:right-10 xl:right-12 2xl:right-16 3xl:right-20 md:before:left-[45%] md:before:h-screen md:before:content-[''] lg:before:left-[38%] lg:before:h-[calc(100vh-87px)] xl:before:left-[42%] xl:before:h-[calc(100vh-94px)] 2xl:before:left-[45%] 2xl:before:h-[calc(100vh-110px)] 3xl:before:left-[48%] 3xl:before:h-[calc(100vh-130px)]"
       >
+        {/* Close button with hyper-responsive positioning */}
         <button
           ref={closeBtnRef}
           onClick={closeMenu}
-          className="menu-close sticky left-[89%] top-9 h-[40px] w-[40px] cursor-pointer text-white sm:left-[90%] md:left-[93%] lg:left-[94.7%] xl:left-[96.5%] 2xl:left-[97%]"
+          className="menu-close sticky left-[85%] top-4 h-6 w-6 cursor-pointer text-white xs:left-[88%] xs:top-5 xs:h-7 xs:w-7 sm:left-[90%] sm:top-6 sm:h-8 sm:w-8 md:left-[92%] md:top-8 md:h-9 md:w-9 lg:left-[93.5%] lg:top-10 lg:h-10 lg:w-10 xl:left-[95%] xl:top-12 xl:h-[40px] xl:w-[40px] 2xl:left-[96%] 2xl:top-14 2xl:h-12 2xl:w-12 3xl:left-[97%] 3xl:top-16 3xl:h-14 3xl:w-14"
           aria-label="Close Menu"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="30"
+            className="h-full w-full"
             viewBox="0 0 50 50"
           >
             <path
@@ -369,22 +378,37 @@ export default function Navbar() {
             />
           </svg>
         </button>
-        <div className="menu-wrapper relative z-[99999] mx-auto flex max-h-[90vh] max-w-[300px] flex-col gap-8 overflow-y-auto overflow-x-hidden pb-4 sm:max-w-[400px] md:top-14 md:max-h-none md:max-w-[580px] md:gap-16 md:overflow-visible md:pt-0 lg:max-w-[900px] xl:max-w-[1030px] 2xl:top-12">
+
+        {/* Menu wrapper with hyper-responsive sizing */}
+        <div className="menu-wrapper relative z-[99999] mx-auto flex max-h-[90vh] max-w-[250px] flex-col gap-4 overflow-y-auto overflow-x-hidden px-4 pb-4 xs:max-w-[280px] xs:gap-5 xs:px-5 sm:max-w-[350px] sm:gap-6 sm:px-6 md:top-8 md:max-h-none md:max-w-[500px] md:gap-10 md:overflow-visible md:px-8 md:pt-0 lg:max-w-[700px] lg:gap-12 lg:px-10 xl:max-w-[900px] xl:gap-16 xl:px-12 2xl:top-6 2xl:max-w-[1100px] 2xl:gap-20 2xl:px-16 3xl:max-w-[1300px] 3xl:gap-24 3xl:px-20">
           <MenuList ref={menuItemsRef} onItemClick={closeMenu} />
         </div>
-        <div className="menu-footer fixed bottom-0 w-full border-t border-white border-opacity-10 max-lg:hidden lg:block">
-          <div className="menu-footer-content mx-auto flex max-w-[300px] flex-col justify-between py-8 sm:max-w-[400px] md:max-w-[600px] md:flex-row lg:max-w-[900px] xl:max-w-[1130px]">
-            <p className="mb-4 w-full text-sm text-white md:mb-0 md:w-auto">
-              Mystic Minds, 8-2-120/86, Banjara Hills, Hyderabad, TS, 500034
-            </p>
+
+        {/* Menu footer with hyper-responsive design */}
+        <div className="menu-footer fixed bottom-0 w-full border-t border-white border-opacity-10 px-4 xs:px-5 sm:px-6 md:px-8 lg:block lg:px-10 xl:px-12 2xl:px-16 3xl:px-20 max-lg:hidden">
+          <div className="menu-footer-content mx-auto flex max-w-[250px] flex-col justify-between py-4 text-xs xs:max-w-[280px] xs:py-5 xs:text-sm sm:max-w-[350px] sm:py-6 md:max-w-[500px] md:flex-row md:py-7 lg:max-w-[700px] lg:py-8 lg:text-base xl:max-w-[900px] xl:py-9 2xl:max-w-[1100px] 2xl:py-10 2xl:text-lg 3xl:max-w-[1300px] 3xl:py-12 3xl:text-xl">
+            <div className="mb-3 w-full text-white md:mb-0 md:w-auto">
+              <div className="block md:hidden lg:hidden xl:block">
+                {/* Single line on mobile and XL+ */}
+                <p className="text-white">
+                  Mystic Minds, 8-2-120/86, Banjara Hills, Hyderabad, TS, 500034
+                </p>
+              </div>
+              <div className="hidden md:block lg:block xl:hidden">
+                {/* Two lines on tablet/laptop */}
+                <p className="text-white">Mystic Minds, 8-2-120/86, Banjara Hills,</p>
+                <p className="text-white">Hyderabad, TS, 500034</p>
+              </div>
+            </div>
             <SocialIcons />
           </div>
         </div>
       </nav>
 
+      {/* Menu overlay with consistent blur */}
       <div
         ref={menuOverflowRef}
-        className="menu-overflow pointer-events-none fixed inset-0 z-[9999] bg-[rgba(10,10,10,0.95)] backdrop-blur-[25px]"
+        className="menu-overflow pointer-events-none fixed inset-0 z-[9999] bg-[rgba(10,10,10,0.90)] backdrop-blur-[15px] xs:bg-[rgba(10,10,10,0.92)] xs:backdrop-blur-[18px] sm:bg-[rgba(10,10,10,0.94)] sm:backdrop-blur-[20px] md:bg-[rgba(10,10,10,0.95)] md:backdrop-blur-[25px] lg:backdrop-blur-[30px] xl:backdrop-blur-[35px] 2xl:backdrop-blur-[40px]"
       ></div>
     </>
   );
