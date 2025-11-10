@@ -126,26 +126,32 @@ const HeroSection = () => {
   return (
     <section className="relative overflow-hidden pb-14 pt-[120px] sm:pt-[135px] md:pb-16 md:pt-[150px] lg:pb-[88px] lg:pt-44 xl:pb-[100px] xl:pt-[200px]">
       <div className="container">
-        <HeroGradientAnimationV2 />
+        {/* Badge */}
         <RevealWrapper className="flex items-center justify-center">
           <div className="rv-badge mb-2">
             <span className="rv-badge-text">Data + AI Innovation</span>
           </div>
         </RevealWrapper>
+
+        {/* Heading */}
         <TextAppearAnimation>
-          <h1 className="text-appear text-center 2xl:leading-[1.21]">
+          <h4 className="text-appear text-center 2xl:leading-[1.21]">
             Empowering businesses with
             <i className="font-instrument"> Data & AI </i>
             solutions
-          </h1>
+          </h4>
         </TextAppearAnimation>
+
+        {/* Subtext */}
         <TextAppearAnimation>
-          <p className="text-appear mx-auto mt-3 max-w-3xl text-center">
+          <p className="text-appear mx-auto mt-3 max-w-4xl text-center">
             From advanced analytics to cloud-native AI solutions, MysticMind
             Data Solutions helps organizations transform data into actionable
             insights, ensuring scalability, security, and sustainable growth.
           </p>
         </TextAppearAnimation>
+
+        {/* Button (currently disabled)
         <RevealWrapper as="ul" className="mt-14 flex list-none justify-center">
           <li className="w-full text-center">
             <Link
@@ -164,42 +170,47 @@ const HeroSection = () => {
             </Link>
           </li>
         </RevealWrapper>
+        */}
       </div>
-      <div
-        className="absolute -left-[4.5%] top-[42%] hidden md:block"
-        ref={heroImage1Ref}
-      >
+
+      {/* Hero Image — centered below text */}
+      {/* <img
+          src="/images/icons/hero-icons/data.png"
+          alt="hero"
+          className="reveal-me"
+          width={100}
+          height={100}
+        /> */}
+      <div className="grid grid-cols-3 justify-items-center items-center gap-10 mt-10">
+       <div className="flex flex-col items-center">
+  <img
+    src="/images/icons/hero-icons/data.png"
+    alt="data-left"
+    className="reveal-me"
+    width={200}
+    height={100}
+  />
+  <p className=" text-lg font-semibold text-gray-800 bg-sky-100 px-4 py-2 rounded-lg">
+  Data Analytics
+</p>
+
+</div>
+
         <img
-          src="/images/icons/hero-icons/Hero2.png"
+          src="/images/icons/hero-icons/group.png"
           alt="hero"
           className="reveal-me"
           width={400}
-          height={400}
+          height={600}
         />
-      </div>
-      <div
-        className="absolute -right-[5%] top-[12%] hidden md:block"
-        ref={heroImage2Ref}
-      >
         <img
-          src="/images/icons/hero-icons/Hero3.png"
-          alt="hero"
-          width={400}
-          height={400}
-        />
-      </div>
-      {/* <div
-        className="absolute bottom-[0%] right-[18.5%] hidden lg:block"
-        ref={heroImage3Ref}
-      >
-        <img
-          src="/images/icons/hero-icons/Hero1.png"
-          alt="hero"
+          src="/images/icons/hero-icons/data.png"
+          alt="data-right"
           className="reveal-me"
-          width={400}
-          height={400}
+          width={100}
+          height={100}
         />
-      </div> */}
+      </div>
     </section>
   );
 };

@@ -39,9 +39,9 @@ const faqV2Data = [
   [
     {
       id: 5,
-      question: "Where are you located and how can we contact you?",
+      question: "How does MysticMind leverage AI in business solutions?",
       answer:
-        "Our office is at 3711 Southmore Blvd, #209, Houston, TX 77004. You can reach us at 425-786-6010 or via email. We also offer a contact form on our website.",
+        "We use Artificial Intelligence and Machine Learning to automate decision-making, enhance forecasting, improve customer experiences, and uncover hidden patterns in data. Our AI solutions include predictive analytics, NLP-driven insights, process automation, and AI-powered dashboards tailored to your business goals.",
     },
     {
       id: 6,
@@ -51,6 +51,7 @@ const faqV2Data = [
     },
   ],
 ];
+
 
 const AboutFaq: FC<PropsType> = ({ titleChange = false }) => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);

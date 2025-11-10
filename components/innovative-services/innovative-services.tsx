@@ -24,7 +24,7 @@ const InnovativeServices = () => {
         <TextAppearAnimation>
           <p className="text-appear mx-auto lg:max-w-[770px]">
             Our AI and analytics services empower businesses with actionable
-            insights, scalable cloud architectures, and automation to maximize
+            insights, scalable cloud data & solution architectures, and automation to maximize
             value and drive growth.
           </p>
         </TextAppearAnimation>

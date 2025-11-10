@@ -15,7 +15,7 @@ const DataAIServices = () => {
     <LayoutTwo>
       <ServicesHero
         badgeTitle="Data & AI Integration"
-        title="Innovative Services"
+        title="Integrated Services"
         italicTitle=""
         scale
         description="Unlock the potential of your data with our advanced AI-powered solutions. From real-time analytics to end-to-end automation, we deliver results that drive growth and efficiency."

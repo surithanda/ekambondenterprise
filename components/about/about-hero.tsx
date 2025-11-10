@@ -19,11 +19,11 @@ const AboutHero = () => {
         </div>
 
         <h2 className="mb-5 text-6xl sm:text-7xl md:text-8xl lg:text-[156px] xl:text-[236px] xl:leading-[1.1]">
-          Company
+          MysticMind
         </h2>
 
         <p className="max-w-[720px] text-lg md:text-xl lg:text-2xl">
-          As trusted partners of Microsoft, AWS, and Google Cloud, we bring credibility and
+          As trusted partners of Microsoft, Azure, AWS, and Google Cloud, we bring credibility and
           deep expertise to every project. Ready to transform your data and drive innovation
           with AI? Get in touch today and let us help you navigate the world of data with
           confidence.

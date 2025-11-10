@@ -1,13 +1,24 @@
 import footerData from '@/data/footer.json'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const Footer = () => {
   return (
     <footer className="w-full overflow-hidden">
       <div className="bg-backgroundBody dark:bg-secondary">
-        <h5 className="footer-text-v2 w-full text-nowrap text-center font-satoshi text-[120px] font-medium uppercase leading-[100%] sm:text-[200px] md:text-[258px] lg:text-[300px] xl:text-[350px] 2xl:text-[386px]">
-          MysticMind
-        </h5>
+        <div className="flex justify-center items-center py-0">
+  <Image
+    src="/dotsicons.png"
+    alt="DATA + AI"
+    width={1600}
+    height={100}
+    className="w-[90%] h-auto mb-24"
+    priority
+  />
+</div>
+
+
+
       </div>
       <div className="-mt-10 bg-backgroundBody py-4 dark:bg-dark sm:-mt-[70px] md:-mt-24 xl:-mt-28">
         <div className="container">
@@ -18,11 +29,7 @@ const Footer = () => {
               <p className="mb-5 max-w-[360px]">
                 MysticMind Data Solutions offers AI, analytics, secure cloud solutions to drive business growth, efficiency.
               </p>
-              <h5 className="mb-3 font-satoshi text-2xl font-medium leading-[1.1]">Address</h5>
-              <p>
-                8-2-120/86, Banjara Hills, <br />
-                Hyderabad, TS, 500034
-              </p>
+             
               <div className="mt-7 flex gap-6 md:mt-10">
                 <span>
                   <Link href="https://www.facebook.com/mysticmindds">

@@ -2,12 +2,12 @@ import getMarkDownData from '@/utils/GetMarkDownData'
 import RevealWrapperV2 from '../animation/RevealWrapperV2'
 
 export interface ProductsDataType {
-  slug: string
-  content: string
+  slug: any
+  content: any
   [key: string]: any
 }
 
-let products: ProductsDataType[] = getMarkDownData('data/products')
+let products: any[] = getMarkDownData('data/products')
 let sortedProducts = products.toSorted((a, b) => a.year - b.year)
 
 const ProductItems = () => {
@@ -37,9 +37,7 @@ const ProductItems = () => {
                   {item?.title}
                 </h3>
               </div>
-              <p className="text-base leading-[1.4] tracking-[0.48px] text-[#000000b3] dark:text-dark-100 md:text-2xl">
-                /{item?.year}
-              </p>
+              
             </div>
           </RevealWrapperV2>
         ))}
