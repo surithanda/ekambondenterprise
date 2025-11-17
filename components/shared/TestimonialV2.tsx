@@ -74,8 +74,8 @@ const TestimonialV2 = () => {
 
                   <div className="flex items-center justify-between pt-4">
                     <div className="flex items-center space-x-1">
-                      <Image src={testimonialLogo} alt="Logo" className="inline dark:hidden" />
-                      <Image src={testimonialLogoDark} alt="Logo" className="hidden dark:inline" />
+                      <Image src={testimonial} alt="Logo" className="inline dark:hidden" />
+                      <Image src={testimonialDark} alt="Logo" className="hidden dark:inline" />
                     </div>
                     <span className="text-sm font-light leading-5 text-colorText">{review.date}</span>
                   </div>
@@ -141,8 +141,8 @@ const TestimonialV2 = () => {
 
                   <div className="flex items-center justify-between pt-4">
                     <div className="flex items-center space-x-1">
-                      <Image src={testimonialLogo} alt="Logo" className="inline dark:hidden" />
-                      <Image src={testimonialLogoDark} alt="Logo" className="hidden dark:inline" />
+                      <Image src={testimonial} alt="Logo" className="inline dark:hidden" />
+                      <Image src={testimonialDark} alt="Logo" className="hidden dark:inline" />
                     </div>
                     <span className="text-sm font-light leading-5 text-colorText">{review.date}</span>
                   </div>
