@@ -30,7 +30,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center mb-24 dark:bg-black bg-white">
+      <div className="flex justify-center mb-24 dark:bg-black bg-[#FDFCF7]">
         <h2
           className="text-center text-3xl font-bold  text-white px-6 py-3 rounded-full 
                  bg-gradient-to-r from-teal-400 via-blue-500 to-red-400"

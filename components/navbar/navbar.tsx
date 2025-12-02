@@ -151,16 +151,16 @@ export default function Navbar() {
                 className="inline-block dark:hidden h-12 sm:h-14 md:h-16"
                 src={logo}
                 alt="logo"
-                width={100}
-                height={100}
+                width={70}
+                height={120}
                 priority
               />
               <Image
                 className="hidden dark:inline-block h-12 sm:h-14 md:h-16"
                 src={logoDark}
                 alt="logo"
-                width={100}
-                height={100}
+                width={70}
+                height={120}
                 priority
               />
             </Link>
